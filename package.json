@@ -1,0 +1,27 @@
+{
+  "name": "ec2-boot-logs",
+  "version": "1.0.0",
+  "description": "Watch your EC2 boot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rclark/ec2-boot-logs.git"
+  },
+  "author": "Ryan Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclark/ec2-boot-logs/issues"
+  },
+  "homepage": "https://github.com/rclark/ec2-boot-logs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.39.0",
+    "cli-spinner": "^0.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-node": "^4.2.2"
+  }
+}
