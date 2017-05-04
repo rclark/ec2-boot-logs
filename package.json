@@ -18,7 +18,8 @@
   "homepage": "https://github.com/rclark/ec2-boot-logs#readme",
   "dependencies": {
     "aws-sdk": "^2.39.0",
-    "cli-spinner": "^0.2.6"
+    "cli-spinner": "^0.2.6",
+    "meow": "^3.7.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
