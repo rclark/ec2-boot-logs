@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "ec2-boot-logs": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rclark/ec2-boot-logs.git"
